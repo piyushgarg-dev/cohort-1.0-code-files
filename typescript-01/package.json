@@ -1,0 +1,22 @@
+{
+  "name": "typescript-01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc -p ."
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.14.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "winston": "^3.17.0",
+    "zod": "^3.24.2"
+  }
+}
